@@ -1,0 +1,14 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  margin:100px;
+}
+
+.my-p {
+  color: blue;
+}
+
+#my-other-p {
+  color: red;
+}
