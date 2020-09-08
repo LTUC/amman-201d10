@@ -1,0 +1,11 @@
+.border {
+  border: 1px dashed blue;
+  padding: 20px;
+  margin: 40px 20px 10px 40px;
+}
+
+#overflow {
+  width:30%;
+  max-height: 100px;
+  overflow: scroll;
+}
