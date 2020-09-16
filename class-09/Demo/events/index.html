@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        background-color: darkred;
+        width: 100px;
+        height: 100px;
+      }
+      .box-class {
+        background-color: royalblue;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="box"></section>
+    <section class="box-class"></section>
+    <article class="box-class"></article>
+    <p class="box-class"></p>
+    <script>
+      var box = document.getElementById('box');
+      var boxClass = document.getElementsByClassName('box-class');
+      document.getElementsByTagName();
+      // var boxSelector = document.querySelector('body:last-child');
+      var boxSelector = document.querySelector('.box-class p');
+      console.log(boxSelector);
+      // console.log(boxClass);
+      boxClass[0].addEventListener('click', sayHi);
+      // addEventListener need 'event name', function
+      console.log(sayHi);
+      box.addEventListener('click', sayHi);
+      // box.addEventListener('click',function(){
+      //   alert('hello')
+      // })
+      function sayHi() {
+        alert('hi');
+      }
+
+      // sayHi();
+    </script>
+  </body>
+</html>
+<!-- 
+
+1. PR show conflict 
+2. checkout master 
+3. git pull origin master
+4. git checkout <branchName>
+5. git merge master
+6. code . (to open vscode and resolve the conflict)
+7. acp to the branch 
+8. your PR is ready to merge to master
+ -->

@@ -1,0 +1,13 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+img {
+  margin-top: 20px;
+}
