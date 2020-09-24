@@ -38,3 +38,10 @@
   - Create a Pull Request (PR) for that branch on GitHub
   - Have someone else review the code in the PR and merge it
 - Repeat
+
+- update local master
+  - after the last member merge the PR to master on GitHub
+  - all members should do the following.
+      -`git checkout master`
+      -`git pull origin master`
+      -`git checkout <new_feature_branch_name>`
